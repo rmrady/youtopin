@@ -1,0 +1,34 @@
+@font-face {
+    font-family: iranSans;
+    src: url(./fonts/IRANSansWeb\(FaNum\).woff2);
+}
+
+body{
+    font-family: iranSans;
+    overflow-x: hidden;
+   
+}
+
+.hambrger{
+    transition: all 700ms ease 0s;
+}
+.qustion-parent{
+    transition: all 600ms ease 0s;
+}
+
+.menu-li::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    margin-top: 23px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all 400ms linear 0s;
+}
+
+.menu-li:hover::after {
+    transform: scaleX(1);
+
+}
