@@ -24,8 +24,7 @@ awesome Youtopin website  to  practice projects!
 The Youtopin website is a travel site that is full of beautiful photos and I really liked designing it
  ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+This site is built with:
 - [html](https://html.com)
 - [css](https://css.com)
 - [tailwind](https://tailwindcss.com)
